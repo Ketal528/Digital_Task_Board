@@ -9,7 +9,7 @@ const AddTask = ({ onTaskAdded }) => {
         if(!title) return;
 
         try{
-            const responce = await axios.post('http://localhost:5000/api/tasks', {title});
+            const responce = await axios.post('https://digital-task-board.onrender.com/api/tasks', {title});
             onTaskAdded(responce.data);
             setTitle('');
         }catch (err) {
