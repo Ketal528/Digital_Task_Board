@@ -9,7 +9,7 @@ const AddTask = ({ onTaskAdded }) => {
         if(!title) return;
 
         try{
-            const responce = await axios.post('https://digital-task-board.onrender.com/api/tasks', {title});
+            const responce = await axios.get('https://digital-task-board.onrender.com/api/tasks/', {title});
             onTaskAdded(responce.data);
             setTitle('');
         }catch (err) {

@@ -10,7 +10,7 @@ const TaskCard = ({ task,onUpdate, onDelete }) => {
       const confirmed = window.confirm(`Are you sure you want to delete this " ${task.title} "task?`);
       if (confirmed) {
         try {
-          await axios.delete(`https://digital-task-board.onrender.com/api/tasks${task._id}`);
+          await axios.delete(`https://digital-task-board.onrender.com/api/tasks/${task._id}`);
           onDelete(task._id); 
         } catch (err) {
           console.error("Delete failed:", err);
@@ -26,7 +26,7 @@ const TaskCard = ({ task,onUpdate, onDelete }) => {
 
   const moveTask = async (newStatus) => {
     try {
-      const response = await axios.patch(`https://digital-task-board.onrender.com/api/tasks${task._id}`, {
+      const response = await axios.patch(`https://digital-task-board.onrender.com/api/tasks/${task._id}`, {
         status: newStatus
       });
       // Tell App.jsx to update the list on the screen
