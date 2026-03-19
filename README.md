@@ -4,8 +4,8 @@ A fully functional Kanban-style Task Management application built using the MERN
 This project demonstrates full CRUD (Create, Read, Update, Delete) capabilities and real-time state management.
 
 🚀 Live Demo
--> Frontend (Vercel): https://digital-task-board.vercel.app/
--> Backend (Render): https://digital-task-board.onrender.com
+- Frontend (Vercel): https://digital-task-board.vercel.app/
+- Backend (Render): https://digital-task-board.onrender.com
 
 ✨ Features
 - Add Tasks: Create new tasks that are instantly saved to MongoDB.
