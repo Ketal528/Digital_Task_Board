@@ -19,3 +19,14 @@ This project demonstrates full CRUD (Create, Read, Update, Delete) capabilities 
 - Backend: Node.js, Express.js
 - Database: MongoDB Atlas (Mongoose)
 - Deployment: Vercel (Frontend) & Render (Backend)
+
+>How to Run Locally
+- Clone the repo: git clone https://github.com/Ketal528/Digital_Task_Board.git
+- Setup Backend:
+    - Navigate to /backend
+    - Create a .env file with MONGO_URI and PORT=5000
+    - Run npm install and npm run dev
+
+- Setup Frontend:
+    - Navigate to /frontend
+    - Run npm install and npm start
