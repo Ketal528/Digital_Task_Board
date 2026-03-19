@@ -1,4 +1,5 @@
-📝 Digital Task Board (MERN Stack)
+Digital Task Board (MERN Stack)
+
 A fully functional Kanban-style Task Management application built using the MERN stack. This project demonstrates full CRUD (Create, Read, Update, Delete) capabilities and real-time state management.
 
 🚀 Live Demo
